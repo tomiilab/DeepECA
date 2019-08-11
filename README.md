@@ -1,13 +1,15 @@
-#DeepECA
+# DeepECA
 
 Predicting protein contact residues and secondary structures from its amino acid sequence by using Deep Neural Network.
 
-#Requirements
-Python3
-numpy
-pandas
-TensorFlow r1.11.0
-HHblits
+# Requirements
+
+* Python3
+* Python3
+* numpy
+* pandas
+* TensorFlow r1.11.0
+* HHblits
 
 We tested our models on Ubuntsu 16.04 .
 
@@ -21,14 +23,14 @@ Please download these files from the link below.
 You need to set up hhblits for generation of MSA.
 Please edit the path to hhblits in run_hhblits_local.py appropriately.
 
-#Prediction
+# Prediction
 To predict by using the multitask model, simply run the following command.
 The results will be stored in ./contact_pred and ./ss_pred directory.
 `python pipeline.py`
 
 When you want to use your original fasta file, put all your fasta files into ./dataset/fasta .
 
-#Training
+# Training
 If you want to train models originally, set up the database and run the following command.
 It takes 2 or 3 days with NVIDIA TITAN GTX GPU.
 `python multitask.py`
