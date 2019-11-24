@@ -5,7 +5,6 @@ Predicting protein contact residues and secondary structures from its amino acid
 # Requirements
 
 * Python3
-* Python3
 * numpy
 * pandas
 * TensorFlow r1.11.0
